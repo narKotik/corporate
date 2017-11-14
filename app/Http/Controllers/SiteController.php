@@ -50,8 +50,8 @@ class SiteController extends Controller
         $this->vars['bar'] = $this->bar;
 
         $this->vars['title'] = $this->title;
-        $this->vars['keywords'] = $this->keywords;;
-        $this->vars['meta_desc'] = $this->meta_desc;;
+        $this->vars['keywords'] = $this->keywords;
+        $this->vars['meta_desc'] = $this->meta_desc;
 
         $footer = view(config('settings.theme') .'.footer')->render();
         $this->vars['footer'] = $footer;
